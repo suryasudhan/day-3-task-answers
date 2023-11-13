@@ -31,8 +31,8 @@ request1.onload = function ()
     {
         console.log(result[i].name.common);
     }
-}
 
+}
   // display all the region
 
   
@@ -84,3 +84,16 @@ request4.onload = function ()
         console.log(result[i].population);
     }
 }
+
+
+// qustion 1
+let object1 = {name: "person 1", age : 5};
+   
+      
+let object2 = {age :5, name: "person 1"}
+      
+  JSON.stringify(object1) === JSON.stringify(object2)
+  // false
+      
+  _.isEqual(object1, object2)
+  // true
