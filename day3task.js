@@ -95,5 +95,11 @@ let object2 = {age :5, name: "person 1"}
   JSON.stringify(object1) === JSON.stringify(object2)
   // false
       
-  _.isEqual(object1, object2)
+//   _.isEqual(object1, object2)
   // true
+
+
+
+
+
+
